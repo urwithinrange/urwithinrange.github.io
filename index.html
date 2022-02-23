@@ -64,12 +64,12 @@ const hitTestSource = await session.requestHitTestSource({ space: viewerSpace })
 // Use the model loader from the previous step to load a targeting reticle and a flower from the web.
 const loader = new THREE.GLTFLoader();
 
-let reticle;
-loader.load("https://immersive-web.github.io/webxr-samples/media/gltf/reticle/reticle.gltf", function(gltf) {
-  reticle = gltf.scene;
-  reticle.visible = false;
-  scene.add(reticle);
-})
+// let reticle;
+// loader.load("https://immersive-web.github.io/webxr-samples/media/gltf/reticle/reticle.gltf", function(gltf) {
+//   reticle = gltf.scene;
+//   reticle.visible = false;
+//   scene.add(reticle);
+// })
 
 let flower;
 // loader.load("https://immersive-web.github.io/webxr-samples/media/gltf/sunflower/sunflower.gltf", function(gltf) {
@@ -83,7 +83,7 @@ session.addEventListener("select", (event) => {
 });
   if (flower) {
     const clone = flower.clone();
-    clone.position.copy(reticle.position);
+    clone.position.copy(select.position);
     scene.add(clone);
     }
 });
