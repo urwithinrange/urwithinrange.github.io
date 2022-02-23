@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport"
 			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Hello WedXR!</title>
+	<title>WedXR Page!</title>
 
 	<!-- three.js -->
 	<script src="https://unpkg.com/three@0.126.0/build/three.js"></script>
@@ -14,14 +14,13 @@
 	<body>
 	<!-- Starting an immersive WebXR session requires user interaction.
 		We start this one with a simple button. -->
-	<button onclick="activateXR()">Start Hello WebXR</button>
+	<button onclick="activateXR()">Start WebXR Page</button>
 	<script>
 	async function activateXR() {
 		// Add a canvas element and initialize a WebGL context that is compatiable with WebXR.
 		const canvas = document.createElement("canvas");
 		document.body.appendChild(canvas);
 		const gl = canvas.getContext("webgl", {xrCompatible: true});
-		// To be continued in upcoming steps
 
 		const scene = new THREE.Scene();
 
@@ -109,7 +108,7 @@
 				if (hitTestResults.length > 0 && reticle) {
 					const hitPose = hitTestResults[0].getPose(referenceSpace);
 					reticle.visible = true;
-					reticle.position.set(hitPose.transform.position.x, hitPose.transform.position.y, hitPose.transform.position.z);
+					reticle.position.set(hitPose.transform.position.x, hitPose.transform.position.y, hitPose.transform.position.z)
 					reticle.updateMatrixWorld(true);
 				}
 				// Render the scene with THREE.WebGLRenderer.
