@@ -15,8 +15,12 @@
 - Ar.js Marker
 
 
-My business card is avalible using a Marker i created  
-![My target](https://cdn.glitch.global/c50183a0-773d-4a6d-aefe-7423009c0ff0/pattern-frame.png?v=1645821043305)  
+My business card is avalible following this QR  
+![QR Code](https://raw.githubusercontent.com/urwithinrange/urwithinrange.github.io/main/webAR_bussiness_card/card-qr.png)  
+  
+Then hovering over this Marker i created,  
+a web AR environment will appear with links to my socials.  
+![My target](https://raw.githubusercontent.com/urwithinrange/urwithinrange.github.io/main/webAR_bussiness_card/pattern-frame.png)  
 Jerome Tienne's [Marker Training](https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html "custom marker generator") is a great tool that I used to create this.  
   
 After scanning the QR code and opening the .io page, the same image can be used to display the card features.  
