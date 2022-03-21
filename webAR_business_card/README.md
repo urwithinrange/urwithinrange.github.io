@@ -16,11 +16,11 @@
 
 
 My business card is avalible following this QR  
-![QR Code](https://raw.githubusercontent.com/urwithinrange/urwithinrange.github.io/main/webAR_bussiness_card/card-qr.png)  
+![QR Code](https://raw.githubusercontent.com/urwithinrange/urwithinrange.github.io/main/webAR_business_card/card-qr.png)  
   
 Then hovering over this Marker i created,  
 a web AR environment will appear with links to my socials.  
-![My target](https://raw.githubusercontent.com/urwithinrange/urwithinrange.github.io/main/webAR_bussiness_card/pattern-frame.png)  
+![My target](https://raw.githubusercontent.com/urwithinrange/urwithinrange.github.io/main/webAR_business_card/pattern-frame.png)  
 Jerome Tienne's [Marker Training](https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html "custom marker generator") is a great tool that I used to create this.  
   
 Any of the cubes can be hovered over with the "circle cursor" and the page will redirect to the selected platform after the cursor animation completes.
