@@ -23,8 +23,7 @@ a web AR environment will appear with links to my socials.
 ![My target](https://raw.githubusercontent.com/urwithinrange/urwithinrange.github.io/main/webAR_bussiness_card/pattern-frame.png)  
 Jerome Tienne's [Marker Training](https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html "custom marker generator") is a great tool that I used to create this.  
   
-After scanning the QR code and opening the .io page, the same image can be used to display the card features.  
-Any of the cubes can be hovered over with the circle cursor and the page will redirect to the selected platform after the cursor animation completes.
+Any of the cubes can be hovered over with the "circle cursor" and the page will redirect to the selected platform after the cursor animation completes.
 
 ## Resuourses
 
